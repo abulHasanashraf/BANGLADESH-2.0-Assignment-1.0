@@ -15,6 +15,10 @@ header{
     max-width: 1600px;
     margin: 0 auto;
 }
+main{
+    max-width: 1600px;
+    margin: 0 auto;
+}
 /* navigation section style*/
 .navigation{
     display: flex;
@@ -78,6 +82,97 @@ header{
     color: white;
     background-color: #006A50;
     font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+/* Pillars of "Bangladesh 2.0" style */
+.foundation{
+    display: flex;
+    gap: 24px;
+}
+.pillars-of-bd{
+    margin: 80px 0px;
+}
+.pillars-of-bd > .title {
+    margin-bottom: 32px;
+}
+.foundation > .pillars > .subtitle {
+    margin: 20px 0px;
+}
+
+
+/* The Vision of Future */
+.future-vision{
+    margin-bottom: 32px;
+}
+.future-vision > .discription {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.our-visions {
+    display: flex;
+    gap: 24px;
+}
+.our-visions > .vision {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+
+
+
+
+/* Shared style */
+.title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.subtitle{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0ECC;
+}
+.discription{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0EB3;
+}
+.pillars{
+    padding: 24px;
+    background-color: #FFFFFF;
+    border: 1px solid #0E0E0E26;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.vision{
+    padding: 32px;
+    background-color: #5490F533;
+    border: none;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.learn-more-btn{
+    padding: 11px 20px;
+    color: #FFFFFF;
+    background-color: #5490F5;
+    font-size: 16px;
     font-weight: 600;
     border: none;
     border-radius: 8px;
