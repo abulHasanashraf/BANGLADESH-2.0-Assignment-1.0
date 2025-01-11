@@ -127,6 +127,18 @@ main{
     justify-content: flex-start;
     gap: 24px;
 }
+.green-energy {
+    background-color: #C6E4D6 !important;
+}
+.green-energy > button {
+    background-color: #09A15C;
+}
+.modern {
+    background-color: #F7EBCF !important;
+}
+.modern > button {
+    background-color: #FFC239;
+}
 
 /* Quote section style */
 .quote{
@@ -243,6 +255,7 @@ main{
 }
 
 .news-image img {
+    max-width: 408px;
     border-radius: 24px;
     -webkit-border-radius: 24px;
     -moz-border-radius: 24px;
@@ -324,11 +337,46 @@ main{
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
 }
-.newaletter{
+.newsletter{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 32px;
+}
+.newsletter .discription {
+    max-width: 700px;
+}
+.newsletter > form > input[type=text] {
+    width: 600px;
+    padding: 18px 34px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E4D;
+    outline: none;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    -webkit-border-radius: 8px 0 0 8px;
+    -moz-border-radius: 8px 0 0 8px;
+    -ms-border-radius: 8px 0 0 8px;
+    -o-border-radius: 8px 0 0 8px;
+}
+.newsletter > form > input[type=submit] {
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    -webkit-border-radius: 0 8px 8px 0;
+    -moz-border-radius: 0 8px 8px 0;
+    -ms-border-radius: 0 8px 8px 0;
+    -o-border-radius: 0 8px 8px 0;
+}
+.newsletter > form {
+    display: flex;
 }
 
 
@@ -405,3 +453,50 @@ footer{
 }
 
 /* Design Complete nedd to style */
+
+/* Hovor efects */
+.pillars:hover {
+    background-color: #C6E4D6;
+}
+.navigation button:hover {
+    background-color: #006A50;
+    color: #FFFFFF;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.banner-btn:hover{
+    background-color: red;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.news-contant:hover{
+    background-color: #C6E4D6;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.news-info > button:hover {
+    background-color: #5490F5;
+}
+.amount:hover{
+    background-color: #C6E4D6;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.donate-now > input[type=submit]:hover{
+    background-color: red;
+}
+.newsletter > form > input[type=submit]:hover{
+    background-color: red;
+}
