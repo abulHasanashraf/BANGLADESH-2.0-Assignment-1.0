@@ -500,3 +500,21 @@ footer{
 .newsletter > form > input[type=submit]:hover{
     background-color: red;
 }
+.digital-transform:hover{
+    background-color: #09A15C !important;
+}
+.green-energy:hover {
+    background-color: #FFC239 !important;
+}
+.our-visions > .modern:hover {
+    background-color: #5490F5 !important;
+}
+.digital-transform > button:hover{
+    background-color: #FFC239;
+}
+.modern > button:hover {
+    background-color: #09A15C;
+}
+.green-energy > button:hover {
+    background-color: #5490F5;
+}
